@@ -33,10 +33,10 @@ except LookupError:
 # --- Configuration ---
 DB_NAME = 'obsidian_linker.db'
 # Minimum number of shared keywords between two notes to consider them related
-MIN_SHARED_KEYWORDS_FOR_CONNECTION = 3 # temporarily set to 2.  It was 3
+MIN_SHARED_KEYWORDS_FOR_CONNECTION = 3  # temporarily set to 2.  It was 3
 
 # Number of top keywords to extract from each note's content
-NUM_KEYWORDS_PER_NOTE = 12 # it was 10
+NUM_KEYWORDS_PER_NOTE = 20  # it was 10
 # Standard English stopwords, can be extended if needed
 STOP_WORDS = set(stopwords.words('english'))
 
